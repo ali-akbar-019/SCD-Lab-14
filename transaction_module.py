@@ -4,7 +4,7 @@ def borrow_book(book_id):
     for book in books:
         if book["id"] == book_id and book["available"]:
             book["available"] = False
-            print("Book borrowed!")
+            print("Book borrowed!!!")
             return
     print("Book not available.")
 
